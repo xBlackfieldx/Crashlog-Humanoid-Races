@@ -1,0 +1,524 @@
+RimWorld 1.0.2096 rev473
+Verse.Log:Message(String, Boolean)
+RimWorld.VersionControl:LogVersionNumber()
+Verse.Root:CheckGlobalInit()
+Verse.Root:Start()
+Verse.Root_Entry:Start()
+
+Rebuilding mods list
+Adding mods from mods folder:
+  Adding AlienRace(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlienRace)
+  Adding Core(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core)
+  Adding __LocalCopy_1- UN-Colony [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_1- UN-Colony [1.0]_(16-1))
+  Adding __LocalCopy_2- UN-Furniture [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_2- UN-Furniture [1.0]_(16-1))
+  Adding __LocalCopy_Advanced Biomes_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Advanced Biomes_(16-1))
+  Adding __LocalCopy_Androids_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Androids_(16-1))
+  Adding __LocalCopy_Beam me up Scotty_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Beam me up Scotty_(16-1))
+  Adding __LocalCopy_Better Workbench Management_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Better Workbench Management_(16-1))
+  Adding __LocalCopy_BioReactor_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_BioReactor_(16-1))
+  Adding __LocalCopy_Cargo Pod Transport[1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Cargo Pod Transport[1.0]_(16-1))
+  Adding __LocalCopy_Clone Bay_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Clone Bay_(16-1))
+  Adding __LocalCopy_Colony Leadership_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Colony Leadership_(16-1))
+  Adding __LocalCopy_Color Coded Mood Bar_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Color Coded Mood Bar_(16-1))
+  Adding __LocalCopy_ED-Embrasures_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_ED-Embrasures_(16-1))
+  Adding __LocalCopy_EdB Prepare Carefully_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_EdB Prepare Carefully_(16-1))
+  Adding __LocalCopy_Field Medic [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Field Medic [1.0]_(16-1))
+  Adding __LocalCopy_Giddy-up! Battle Mounts_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Giddy-up! Battle Mounts_(16-1))
+  Adding __LocalCopy_Giddy-up! Caravan_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Giddy-up! Caravan_(16-1))
+  Adding __LocalCopy_Giddy-up! Core_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Giddy-up! Core_(16-1))
+  Adding __LocalCopy_Harvest Organs Post Mortem - 4.1 [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Harvest Organs Post Mortem - 4.1 [1.0]_(16-1))
+  Adding __LocalCopy_Hospitality_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Hospitality_(16-1))
+  Adding __LocalCopy_HugsLib_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_HugsLib_(16-1))
+  Adding __LocalCopy_Increased Stack_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Increased Stack_(16-1))
+  Adding __LocalCopy_Industrial Rollers_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Industrial Rollers_(16-1))
+  Adding __LocalCopy_Just Ignore Me Passing_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Just Ignore Me Passing_(16-1))
+  Adding __LocalCopy_Medical Training_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Medical Training_(16-1))
+  Adding __LocalCopy_MiningCo. Spaceship_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_MiningCo. Spaceship_(16-1))
+  Adding __LocalCopy_Misc. Robots_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Misc. Robots_(16-1))
+  Adding __LocalCopy_Mod Manager_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Mod Manager_(16-1))
+  Adding __LocalCopy_More Slaves [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_More Slaves [1.0]_(16-1))
+  Adding __LocalCopy_PhiClient_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_PhiClient_(16-1))
+  Adding __LocalCopy_Prison Labor_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Prison Labor_(16-1))
+  Adding __LocalCopy_Real Ruins_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Real Ruins_(16-1))
+  Adding __LocalCopy_Realistic Rooms_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Realistic Rooms_(16-1))
+  Adding __LocalCopy_Recipe icons_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Recipe icons_(16-1))
+  Adding __LocalCopy_ResearchPal_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_ResearchPal_(16-1))
+  Adding __LocalCopy_Rimefeller_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Rimefeller_(16-1))
+  Adding __LocalCopy_Roads of the Rim_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Roads of the Rim_(16-1))
+  Adding __LocalCopy_RT Fuse_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_RT Fuse_(16-1))
+  Adding __LocalCopy_Simple Recycling_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Simple Recycling_(16-1))
+  Adding __LocalCopy_Simple Stockpile Presets_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Simple Stockpile Presets_(16-1))
+  Adding __LocalCopy_Slave Outfits [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Slave Outfits [1.0]_(16-1))
+  Adding __LocalCopy_Snap Out!_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Snap Out!_(16-1))
+  Adding __LocalCopy_Tech Raiding [1.0]_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Tech Raiding [1.0]_(16-1))
+  Adding __LocalCopy_Wall Light_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Wall Light_(16-1))
+  Adding __LocalCopy_Work Tab_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_Work Tab_(16-1))
+  Adding __LocalCopy_[1.0] RPG Style Inventory_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[1.0] RPG Style Inventory_(16-1))
+  Adding __LocalCopy_[CP] Rimmu-Nation - Weapons (1.0)_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[CP] Rimmu-Nation - Weapons (1.0)_(16-1))
+  Adding __LocalCopy_[KV] RimFridge - 1.0_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[KV] RimFridge - 1.0_(16-1))
+  Adding __LocalCopy_[RH] Faction_ Militaires Sans Frontieres (1.0)_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[RH] Faction_ Militaires Sans Frontieres (1.0)_(16-1))
+  Adding __LocalCopy_[sd] bridges_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[sd] bridges_(16-1))
+  Adding __LocalCopy_[SYR] Coffee and Tea_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[SYR] Coffee and Tea_(16-1))
+  Adding __LocalCopy_[SYR] Set Up Camp_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[SYR] Set Up Camp_(16-1))
+  Adding __LocalCopy_[XND] Profitable Weapons_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[XND] Profitable Weapons_(16-1))
+  Adding __LocalCopy_[XND] Survival Tools_(16-1)(C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\__LocalCopy_[XND] Survival Tools_(16-1))
+Adding mods from Steam:
+  Adding 1501832876(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1501832876)
+  Adding 1485312620(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1485312620)
+  Adding 1470065926(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1470065926)
+  Adding 1434137894(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1434137894)
+  Adding 1428628928(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1428628928)
+  Adding 1420241138(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1420241138)
+  Adding 1419006111(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1419006111)
+  Adding 1253251478(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1253251478)
+  Adding 1338280929(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1338280929)
+  Adding 946390822(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\946390822)
+  Adding 848972794(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\848972794)
+  Adding 735106432(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\735106432)
+  Adding 722085442(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\722085442)
+  Adding 725952322(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\725952322)
+  Adding 736139206(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\736139206)
+  Adding 736207111(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\736207111)
+  Adding 1231617602(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1231617602)
+  Adding 761315214(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\761315214)
+  Adding 935982361(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\935982361)
+  Adding 784327493(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\784327493)
+  Adding 798158924(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\798158924)
+  Adding 728314182(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\728314182)
+  Adding 725747149(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\725747149)
+  Adding 1390716397(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1390716397)
+  Adding 1217001091(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1217001091)
+  Adding 1316188771(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1316188771)
+  Adding 725956940(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\725956940)
+  Adding 708455313(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\708455313)
+  Adding 732569232(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\732569232)
+  Adding 1386385125(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1386385125)
+  Adding 1565942758(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1565942758)
+  Adding 1552146295(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1552146295)
+  Adding 1507748539(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1507748539)
+  Adding 1508165821(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1508165821)
+  Adding 1321849735(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1321849735)
+  Adding 1365242717(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1365242717)
+  Adding 1336991209(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1336991209)
+  Adding 1216999901(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1216999901)
+  Adding 1319782555(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1319782555)
+  Adding 972057888(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\972057888)
+  Adding 818773962(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\818773962)
+  Adding 788610933(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\788610933)
+  Adding 1322328003(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1322328003)
+  Adding 725219116(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\725219116)
+  Adding 857350593(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\857350593)
+  Adding 754637870(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\754637870)
+  Adding 715565817(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\715565817)
+  Adding 704181221(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\704181221)
+  Adding 715565262(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\715565262)
+  Adding 1221668621(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1221668621)
+  Adding 932008009(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\932008009)
+  Adding 1414302321(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1414302321)
+  Adding 1474002997(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1474002997)
+  Adding 1541438230(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1541438230)
+  Adding 1522429439(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1522429439)
+  Adding 1541360626(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1541360626)
+  Adding 1536615776(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1536615776)
+  Adding 1541064015(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1541064015)
+  Adding 1214615921(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1214615921)
+  Adding 1541287769(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1541287769)
+  Adding 1613783924(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1613783924)
+  Adding 1616643195(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1616643195)
+  Adding 1547681343(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1547681343)
+  Adding 1542036108(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1542036108)
+  Adding 1507132557(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1507132557)
+  Adding 1304432145(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1304432145)
+  Adding 1608498683(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1608498683)
+  Adding 1543671683(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1543671683)
+  Adding 1610302046(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1610302046)
+  Adding 1611200179(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1611200179)
+  Adding 1566269698(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1566269698)
+  Adding 1564657272(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1564657272)
+  Adding 1561221991(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1561221991)
+  Adding 1386412863(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1386412863)
+  Adding 1454024362(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1454024362)
+  Adding 1423699208(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1423699208)
+  Adding 1180721235(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1180721235)
+  Adding 760088748(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\760088748)
+  Adding 753498552(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\753498552)
+  Adding 790224614(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\790224614)
+  Adding 771341092(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\771341092)
+  Adding 736172213(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\736172213)
+  Adding 725947920(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\725947920)
+  Adding 1204502413(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1204502413)
+  Adding 839005762(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\839005762)
+  Adding 1098354593(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1098354593)
+  Adding 849231601(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\849231601)
+  Adding 724602224(C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\724602224)
+Deactivating not-installed mods:
+Verse.Log:Message(String, Boolean)
+Verse.ModLister:RebuildModList()
+Verse.Steam.WorkshopItems:RebuildItemsList()
+Verse.Steam.WorkshopItems:.cctor()
+Verse.ModLister:RebuildModList()
+Verse.ModLister:RebuildModList()
+Verse.ModLister:.cctor()
+Verse.<>c__Iterator0:MoveNext()
+Verse.<>c__Iterator0:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToList(IEnumerable`1)
+Verse.LoadedModManager:InitializeMods()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[HugsLib] version 6.1.1
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:InitializeController()
+HugsLib.HugsLibController:EarlyInitialize()
+HugsLib.Core.HugsLibMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+--- Thread 2 ---
+ 14868ms LoadAllPlayData
+ - 11734ms Load all active mods.
+ - - 1ms Initializing [Core|Core]
+ - - 0ms Initializing [__LocalCopy_HugsLib_(16-1)|HugsLib]
+ - - 0ms Initializing [AlienRace|Humanoid Alien Races 2.0]
+ - - 0ms Initializing [__LocalCopy_Androids_(16-1)|Androids]
+ - - 0ms Initializing [__LocalCopy_Mod Manager_(16-1)|Mod Manager]
+ - - 1ms Loading Core content
+ - - 113ms Loading __LocalCopy_HugsLib_(16-1) content
+ - - 12ms Loading AlienRace content
+ - - 11ms Loading __LocalCopy_Androids_(16-1) content
+ - - 133ms Loading __LocalCopy_Mod Manager_(16-1) content
+ - - 596ms Loading Core
+ - - 21ms Loading __LocalCopy_HugsLib_(16-1)
+ - - 3ms Loading AlienRace
+ - - 79ms Loading __LocalCopy_Androids_(16-1)
+ - - 0ms Loading __LocalCopy_Mod Manager_(16-1)
+ - - 0ms Loading all patches
+ - - 0ms Loading all patches
+ - - 0ms Loading all patches
+ - - 15ms Loading all patches
+ - - 0ms Loading all patches
+ - 147ms Load language metadata.
+ - 167ms Loading language data: English
+ - 151ms Copy all Defs from mods to global databases.
+ - 186ms Resolve cross-references between non-implied Defs.
+ - 76ms Rebind defs (early).
+ - 3ms Inject selected language data into game data (early pass).
+ - 39ms Generate implied Defs (pre-resolve).
+ - 0ms Resolve cross-references between Defs made by the implied defs.
+ - 86ms Rebind DefOfs (final).
+ - 71ms Other def binding, resetting and global operations (pre-resolve).
+ - 2012ms Resolve references.
+ - 2ms Generate implied Defs (post-resolve).
+ - 0ms Other def binding, resetting and global operations (post-resolve).
+ - 122ms Error check all defs.
+ - 10ms Load keyboard preferences.
+ - 51ms Short hash giving.
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+--- Main thread ---
+ 7ms Loading assets of type UnityEngine.Texture2D for mod __LocalCopy_HugsLib_(16-1)
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+Verse.<LoadAllForMod>c__Iterator0:MoveNext()
+Verse.ModContentHolder`1:ReloadAll()
+Verse.ModContentPack:<ReloadContent>m__1()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+--- Main thread ---
+ 486ms Loading assets of type UnityEngine.Texture2D for mod __LocalCopy_Androids_(16-1)
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+Verse.<LoadAllForMod>c__Iterator0:MoveNext()
+Verse.ModContentHolder`1:ReloadAll()
+Verse.ModContentPack:<ReloadContent>m__1()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+--- Main thread ---
+ 13ms Loading assets of type UnityEngine.Texture2D for mod __LocalCopy_Mod Manager_(16-1)
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+Verse.<LoadAllForMod>c__Iterator0:MoveNext()
+Verse.ModContentHolder`1:ReloadAll()
+Verse.ModContentPack:<ReloadContent>m__1()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+--- Main thread ---
+ 3593ms Load backstories.
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+Verse.PlayDataLoader:<DoPlayLoad>m__0()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+--- Main thread ---
+ 4ms Inject selected language data into game data.
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+Verse.PlayDataLoader:<DoPlayLoad>m__1()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Could not execute post-long-event action. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Error while generating pawn. Rethrowing. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.PawnGenerator:GeneratePawn(PawnKindDef, Faction)
+RimWorld.Faction:GenerateNewLeader()
+RimWorld.FactionGenerator:NewGeneratedFaction(FactionDef)
+RimWorld.FactionGenerator:GenerateFactionsIntoWorld()
+RimWorld.Planet.WorldGenStep_Factions:GenerateFresh(String)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error in WorldGenStep: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+There was an exception thrown by the PawnGenerator during generating a starting pawn. Trying one more time...
+Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+--- Thread 4 ---
+ 10905ms GenerateWorld
+ - 6838ms WorldGenStep - Terrain
+ - 92ms WorldGenStep - Components
+ - 26ms WorldGenStep - Lakes
+ - 637ms WorldGenStep - Rivers
+ - 3ms WorldGenStep - AncientSites
+ - 256ms WorldGenStep - AncientRoads
+ - 30ms WorldGenStep - Factions
+ - 927ms WorldGenStep - Roads
+ - 1819ms WorldGenStep - Features
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Exception from asynchronous event: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()

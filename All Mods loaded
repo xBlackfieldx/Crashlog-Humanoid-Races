@@ -1,0 +1,1232 @@
+RimWorld 1.0.2096 rev473
+Verse.Log:Message(String, Boolean)
+RimWorld.VersionControl:LogVersionNumber()
+Verse.Root:CheckGlobalInit()
+Verse.Root:Start()
+Verse.Root_Entry:Start()
+
+[HugsLib] version 6.1.1
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:InitializeController()
+HugsLib.HugsLibController:EarlyInitialize()
+HugsLib.Core.HugsLibMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Rimefeller 1.1.267
+Verse.Log:Message(String, Boolean)
+Rimefeller.RimefellerMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Parsed 97.5 as int.
+Verse.Log:Warning(String, Boolean)
+Verse.ParseHelper:ParseIntPermissive(String)
+Verse.ParseHelper:FromString(String, Type)
+Verse.ThingDefCountClass:LoadDataFromXmlCustom(XmlNode)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ListFromXml(XmlNode)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlLoader:DefFromNode(XmlNode, LoadableXmlAsset)
+Verse.LoadedModManager:ParseAndProcessXML(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Parsed 3.5 as int.
+Verse.Log:Warning(String, Boolean)
+Verse.ParseHelper:ParseIntPermissive(String)
+Verse.ParseHelper:FromString(String, Type)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.DirectXmlLoader:DefFromNode(XmlNode, LoadableXmlAsset)
+Verse.LoadedModManager:ParseAndProcessXML(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Could not resolve cross-reference: No Verse.SoundDef named BulletImpactMetal found to give to Verse.ThingDef TeachingSpot (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.DirectXmlCrossRefLoader:ResolveAllWantedCrossReferences(FailMode)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Could not resolve cross-reference: No Verse.SoundDef named BulletImpactMetal found to give to Verse.ThingDef GlobeCL (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.DirectXmlCrossRefLoader:ResolveAllWantedCrossReferences(FailMode)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Could not resolve cross-reference: No Verse.SoundDef named BulletImpactMetal found to give to Verse.ThingDef ChalkboardCL (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.DirectXmlCrossRefLoader:ResolveAllWantedCrossReferences(FailMode)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Could not resolve cross-reference: No Verse.SoundDef named BulletImpactMetal found to give to Verse.ThingDef BallotBox (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.DirectXmlCrossRefLoader:ResolveAllWantedCrossReferences(FailMode)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Translation data for language English has 3 errors. Generate translation report for more info.
+Verse.Log:Warning(String, Boolean)
+Verse.LoadedLanguage:InjectIntoData_AfterImpliedDefs()
+Verse.PlayDataLoader:<DoPlayLoad>m__1()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+RimFridge Harmony Patches:
+  Prefix:
+    CompTemperatureRuinable.DoTicks - Will return false if within a RimFridge
+    ReachabilityUtility.CanReach
+  Postfix:
+    GameComponentUtility.StartedNewGame
+    GameComponentUtility.LoadedGame
+Verse.Log:Message(String, Boolean)
+RimFridge.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Active Terrain Framework initialized. This mod uses Harmony (all patches are non-destructive): Verse.TerrainGrid.SetTerrain, Verse.TerrainGrid.RemoveTopLayer, Verse.MouseoverReadout.MouseoverReadoutOnGUI
+Verse.Log:Message(String, Boolean)
+ActiveTerrain._TerrainGrid:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+[ColorCodedMoodBar] initialized
+Verse.Log:Message(String, Boolean)
+MoodBarPatch.Main:LogMessage(String)
+MoodBarPatch.Main:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Profitable Weapons :: MendAndRecycle not detected as active in load order.
+Verse.Log:Message(String, Boolean)
+ProfitableWeapons.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+RealRuins started patching at 1/16/2019 5:35:09 PM
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.RealRuins:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+RealRuins finished patching at 1/16/2019 5:35:09 PM (21.4831 msec)
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.RealRuins:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Checking all stuff for StuffPropsTool modExtension...
+
+Has props:
+Synthylene (Rimefeller)
+SynthyleneWhite (Rimefeller)
+SynthyleneBlack (Rimefeller)
+SynthyleneGreen (Rimefeller)
+SynthyleneBlue (Rimefeller)
+SynthyleneViolet (Rimefeller)
+SynthyleneOrange (Rimefeller)
+SynthyleneYellow (Rimefeller)
+SynthyleneRed (Rimefeller)
+SynthyleneOlive (Rimefeller)
+SynthyleneSand (Rimefeller)
+FiberComposite (Rimefeller)
+FiberCompositeWhite (Rimefeller)
+FiberCompositeBlack (Rimefeller)
+FiberCompositeGreen (Rimefeller)
+FiberCompositeBlue (Rimefeller)
+FiberCompositeViolet (Rimefeller)
+FiberCompositeOrange (Rimefeller)
+FiberCompositeYellow (Rimefeller)
+FiberCompositeRed (Rimefeller)
+FiberCompositeOlive (Rimefeller)
+FiberCompositeSand (Rimefeller)
+Silver (Increased Stack)
+Gold (Increased Stack)
+Plasteel (Increased Stack)
+WoodLog (Increased Stack)
+Uranium (Increased Stack)
+Jade (Increased Stack)
+BlocksSandstone (Increased Stack)
+BlocksGranite (Increased Stack)
+BlocksLimestone (Increased Stack)
+BlocksSlate (Increased Stack)
+BlocksMarble (Increased Stack)
+
+Doesn't have props:
+sd_bridges_foundationmaterial ([sd] bridges)
+Steel (Increased Stack)
+
+Verse.Log:Message(String, Boolean)
+SurvivalTools.SurvivalToolUtility:CheckStuffForStuffPropsTool()
+SurvivalTools.SurvivalToolUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Attaching Pawn_SurvivalToolAssignmentTracker to Human
+Verse.Log:Message(String, Boolean)
+SurvivalTools.SurvivalToolUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Attaching Pawn_SurvivalToolAssignmentTracker to ChjAndroid
+Verse.Log:Message(String, Boolean)
+SurvivalTools.SurvivalToolUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Attaching Pawn_SurvivalToolAssignmentTracker to ChjDroid
+Verse.Log:Message(String, Boolean)
+SurvivalTools.SurvivalToolUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Attaching Pawn_SurvivalToolAssignmentTracker to ChjBattleDroid
+Verse.Log:Message(String, Boolean)
+SurvivalTools.SurvivalToolUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.Patcher(): Starting.
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.ApplyPatchIfRequired: Applying Patch: Embrasures
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patch:ApplyPatchIfRequired(HarmonyInstance)
+EnhancedDevelopment.Embrasures.<>c__DisplayClass0_0:<.cctor>b__0(Patch)
+System.Collections.Generic.List`1:ForEach(Action`1)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.ApplyPatchIfRequired: Applied Patch: Embrasures
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patch:ApplyPatchIfRequired(HarmonyInstance)
+EnhancedDevelopment.Embrasures.<>c__DisplayClass0_0:<.cctor>b__0(Patch)
+System.Collections.Generic.List`1:ForEach(Action`1)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.Patcher(): Complete.
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+FieldMedic inited
+Verse.Log:Message(String, Boolean)
+FieldMedic.HarmonyBase:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+WorkTab hotfix initialized
+Verse.Log:Message(String, Boolean)
+PrisonLabor.CompatibilityPatches.WorkTab:Work()
+PrisonLabor.CompatibilityPatches.WorkTab:Init()
+PrisonLabor.CompatibilityPatches.Initialization:Run()
+PrisonLabor.Initialization:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Enabled Prison Labor v0.9.11
+Verse.Log:Message(String, Boolean)
+PrisonLabor.Initialization:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Could not execute post-long-event action. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading some snapshots...
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadSomeSnapshots()
+RealRuins.UIRoot_Entry_Init_Patch:Postfix()
+Verse.UIRoot_Entry:Init_Patch1(Object)
+Verse.Root:<Start>m__0()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loaded list of elements with prefix 20180986...
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadSomeSnapshots()
+RealRuins.UIRoot_Entry_Init_Patch:Postfix()
+Verse.UIRoot_Entry:Init_Patch1(Object)
+Verse.Root:<Start>m__0()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Preparing research nodes
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: 	redundant prerequisites for Concentrated lasers: Microelectronics
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: 	redundant prerequisites for Double barreled basics: Machining
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: 	redundant prerequisites for Double barreled rifling: Gunsmithing
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: 	redundant prerequisites for Simplified mechanics: Multi-analyzer
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Reducing crossings
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Finalizing layout
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Restoring queue
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Try connecting to tayaut.chemagent.net
+Verse.Log:Message(String, Boolean)
+PhiClient.PhiClient:Log(LogLevel, String)
+PhiClient.PhiClient:TryConnect()
+PhiClient.PhiInitializer:.ctor()
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.ConstructorInfo:Invoke(Object[])
+System.Activator:CreateInstance(Type, Boolean)
+HugsLib.HugsLibController:EnumerateChildMods(Boolean)
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[HugsLib] initializing Phi, ImprovedWorkbenches, GiddyUpCore, BattleMounts, GiddyUpCaravan, Autopsy, Hospitality, MURWallLight
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:EnumerateChildMods(Boolean)
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Injecting guest beds into the following facilities: EndTable, Dresser, VitalsMonitor, SadjuukFurnitureAA, SadjuukFurnitureAB, SadjuukFurnitureAC, SadjuukFurnitureBA, SadjuukFurnitureBB, SadjuukFurnitureBC, SadjuukSurgeryAA, SadjuukSurgeryAB, SadjuukSurgeryAC, SadjuukSurgeryAD
+Verse.Log:Message(String, Boolean)
+Hospitality.<GetFacilitiesFor>d__1:MoveNext()
+System.Collections.Generic.List`1:AddEnumerable(IEnumerable`1)
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+Hospitality.Hospitality_SpecialInjector:Inject()
+Hospitality.ModBaseHospitality:Inject()
+Hospitality.ModBaseHospitality:Initialize()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Created guest beds for the following beds: SleepingSpot, DoubleSleepingSpot, Bed, DoubleBed, RoyalBed, HospitalBed, Bedroll, BedrollDouble, LTF_TpBed, SadjuukBedAA, SadjuukBedAB, SadjuukBedAC, SadjuukBedBA, SadjuukBedBB, SadjuukBedBC, SadjuukSurgeryBA, SadjuukSurgeryBB, SadjuukSurgeryBC, SadjuukSurgeryBD
+Verse.Log:Message(String, Boolean)
+Hospitality.Hospitality_SpecialInjector:CreateGuestBedDefs(ThingDef[], CompProperties_Facility[])
+Hospitality.Hospitality_SpecialInjector:Inject()
+Hospitality.ModBaseHospitality:Inject()
+Hospitality.ModBaseHospitality:Initialize()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Got names list
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.<>c__DisplayClass9_0:<AmazonS3ListFiles>g__InternalSuccessHandler|0(String)
+HugsLib.Utils.<>c__DisplayClass22_0:<AwaitUnityWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loaded list of 1000 elements...
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:<LoadSomeSnapshots>b__6_0(List`1)
+RealRuins.<>c__DisplayClass9_0:<AmazonS3ListFiles>g__InternalSuccessHandler|0(String)
+HugsLib.Utils.<>c__DisplayClass22_0:<AwaitUnityWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Filtered down to list of 1000 elements...
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:<LoadSomeSnapshots>b__6_0(List`1)
+RealRuins.<>c__DisplayClass9_0:<AmazonS3ListFiles>g__InternalSuccessHandler|0(String)
+HugsLib.Utils.<>c__DisplayClass22_0:<AwaitUnityWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Shuffled...
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:<LoadSomeSnapshots>b__6_0(List`1)
+RealRuins.<>c__DisplayClass9_0:<AmazonS3ListFiles>g__InternalSuccessHandler|0(String)
+HugsLib.Utils.<>c__DisplayClass22_0:<AwaitUnityWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading 25 files...
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:<LoadSomeSnapshots>b__6_0(List`1)
+RealRuins.<>c__DisplayClass9_0:<AmazonS3ListFiles>g__InternalSuccessHandler|0(String)
+HugsLib.Utils.<>c__DisplayClass22_0:<AwaitUnityWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-13402100810-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.SnapshotManager:<LoadSomeSnapshots>b__6_0(List`1)
+RealRuins.<>c__DisplayClass9_0:<AmazonS3ListFiles>g__InternalSuccessHandler|0(String)
+HugsLib.Utils.<>c__DisplayClass22_0:<AwaitUnityWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Apparel Stuff Color detours loaded, hopefully correct
+Verse.Log:Message(String, Boolean)
+GraphicApparelDetour.Detours:TryDetourFromTo(MethodInfo, MethodInfo)
+GraphicApparelDetour.InjectorThingy:InjectStuff()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Loading snapshot 20180986-13283843990-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-14170148012-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-14346936040-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-15392053930-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-1274802743137-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-11667078290-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-1346283520-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-14001208940-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-12050715900-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-12868108711-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Connected to the server
+Verse.Log:Message(String, Boolean)
+PhiClient.PhiClient:Log(LogLevel, String)
+PhiClient.PhiClient:ConnectionCallback()
+SocketLibrary.Client:OpenCallback(Object, EventArgs)
+WebSocketSharp.Ext:Emit(EventHandler, Object, EventArgs)
+WebSocketSharp.WebSocket:open()
+WebSocketSharp.<>c__DisplayClass201_0:<ConnectAsync>b__0(IAsyncResult)
+
+Trying to authenticate as xBlackfieldx
+Verse.Log:Message(String, Boolean)
+PhiClient.PhiClient:Log(LogLevel, String)
+PhiClient.PhiClient:ConnectionCallback()
+SocketLibrary.Client:OpenCallback(Object, EventArgs)
+WebSocketSharp.Ext:Emit(EventHandler, Object, EventArgs)
+WebSocketSharp.WebSocket:open()
+WebSocketSharp.<>c__DisplayClass201_0:<ConnectAsync>b__0(IAsyncResult)
+
+Loading snapshot 20180986-13417615600-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-16158629120-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-11530925940-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-13766527820-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-15314451020-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-15666675580-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-13912130570-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-15883063852-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-11052552730-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-16657589950-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-13806548720-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Error while generating pawn. Rethrowing. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.PawnGenerator:GeneratePawn(PawnKindDef, Faction)
+RimWorld.Faction:GenerateNewLeader()
+RimWorld.FactionGenerator:NewGeneratedFaction(FactionDef)
+RimWorld.FactionGenerator:GenerateFactionsIntoWorld()
+RimWorld.Planet.WorldGenStep_Factions:GenerateFresh(String)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error in WorldGenStep: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Loading snapshot 20180986-16040774450-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Loading snapshot 20180986-16302122141-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Error while generating pawn. Rethrowing. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+There was an exception thrown by the PawnGenerator during generating a starting pawn. Trying one more time...
+Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+--- Thread 7 ---
+ 10760ms GenerateWorld
+ - 6816ms WorldGenStep - Terrain
+ - 162ms WorldGenStep - Components
+ - 24ms WorldGenStep - Lakes
+ - 588ms WorldGenStep - Rivers
+ - 4ms WorldGenStep - AncientSites
+ - 249ms WorldGenStep - AncientRoads
+ - 28ms WorldGenStep - Factions
+ - 910ms WorldGenStep - Roads
+ - 1698ms WorldGenStep - Features
+
+Verse.Log:Message(String, Boolean)
+Verse.ThreadLocalDeepProfiler:Output(Watcher)
+Verse.ThreadLocalDeepProfiler:End()
+Verse.DeepProfiler:End()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Exception from asynchronous event: System.TypeInitializationException: An exception was thrown by the type initializer for AlienRace.HarmonyPatches ---> System.Exception: Exception from HarmonyInstance "rimworld.erdelf.alien_race.main" ---> System.Exception: Parameter "backstoryCategory" not found in method RimWorld.PawnBioAndNameGenerator.TryGetRandomUnusedSolidBioFor(System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Verse.PawnKindDef, Verse.Gender, System.String)
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass19_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.Patch (System.Reflection.MethodBase original, Harmony.HarmonyMethod prefix, Harmony.HarmonyMethod postfix, Harmony.HarmonyMethod transpiler) [0x00000] in <filename unknown>:0 
+  at AlienRace.HarmonyPatches..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (RuntimeTypeHandle type) [0x00000] in <filename unknown>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00000] in <filename unknown>:0 
+  at Verse.PlayDataLoader.<DoPlayLoad>m__2 () [0x00000] in <filename unknown>:0 
+  at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Loading snapshot 20180986-126336231-jeluder.bp
+Verse.Log:Message(String, Boolean)
+RealRuins.Debug:Message(String, Object[])
+RealRuins.SnapshotManager:LoadNextSnapshot()
+RealRuins.<>c__DisplayClass7_0:<LoadNextSnapshot>b__0(Boolean, Byte[])
+RealRuins.<>c__DisplayClass10_0:<AmazonS3DownloadSnapshot>b__0(Byte[])
+RealRuins.<>c__DisplayClass11_0:<AwaitUnityDataWebResponse>b__0()
+HugsLib.Utils.DoLaterScheduler:InvokeCallbacks(Queue`1)
+HugsLib.Utils.DoLaterScheduler:OnUpdate()
+HugsLib.HugsLibController:OnUpdate()
+HugsLib.Patches.Root_Patch:UpdateHook()
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
